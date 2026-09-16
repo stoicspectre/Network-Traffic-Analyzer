@@ -1,0 +1,29 @@
+{
+    "total_connections": 20,
+    "total_bytes": 24800,
+    "protocols": {
+        "TCP": 16,
+        "UDP": 4
+    },
+    "top_source_ips": {
+        "192.168.1.20": 9,
+        "192.168.1.10": 7,
+        "192.168.1.30": 4
+    },
+    "top_destination_ports": {
+        "443": 10,
+        "53": 4,
+        "22": 4,
+        "80": 2
+    },
+    "suspicious_ips": {
+        "192.168.1.10": {
+            "connections": 7,
+            "risk": "HIGH"
+        },
+        "192.168.1.20": {
+            "connections": 9,
+            "risk": "HIGH"
+        }
+    }
+}
